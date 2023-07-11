@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
-for a in range(122, 96, -1):
-    if a % 2 == 0:
-        x = chr(a)
-    else:
-        x = chr(a-32)
-    print("{}".format(x), end="")
+a = 122
+while a >= 97:
+    x = 0
+    if a % 2 != 0:
+        a = a - 32
+        x = 1
+    print("{:s}".format(chr(a)), end="")
+    if x == 1:
+        a = a + 32
+    a = a - 1
