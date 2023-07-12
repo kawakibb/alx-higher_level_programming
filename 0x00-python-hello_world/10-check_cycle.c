@@ -7,17 +7,17 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *slow = list;
+	listint_t *a = list;
 	listint_t *c = list;
 
 	if (!list)
 		return (0);
 
-	while (s && c && c->next)
+	while (a && c && c->next)
 	{
-		s = s->next;
+		a = a->next;
 		c = c->next->next;
-		if (s == c)
+		if (a == c)
 			return (1);
 	}
 
