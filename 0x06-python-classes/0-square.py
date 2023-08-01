@@ -4,5 +4,5 @@ test comment for init
 """
 class Square:
     def __init__(self, msg, code):
-        pass
+        return
 
