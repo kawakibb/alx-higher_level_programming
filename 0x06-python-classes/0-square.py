@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 " comment "
 class Square:
-    pass
+    def __init__(self, msg, code):
+        pass
 
