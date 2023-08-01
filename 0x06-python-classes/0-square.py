@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-" comment "
-class Square:
 """
 test comment for init
 """
+class Square:
     def __init__(self, msg, code):
         pass
 
