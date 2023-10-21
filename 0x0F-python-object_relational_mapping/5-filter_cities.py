@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """Lists cities in a specified state from the database hbtn_0e_0_usa"""
-
-# Import necessary modules
 import MySQLdb
 import sys
 
